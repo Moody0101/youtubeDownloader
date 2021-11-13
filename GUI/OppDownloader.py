@@ -19,6 +19,7 @@ from os import path, mkdir, chdir
         also how downloadData works:
             {still working on it...}
 """
+
 def createdir(arg0: str):
     if not path.exists(arg0):
         mkdir(arg0)
